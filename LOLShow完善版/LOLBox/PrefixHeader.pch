@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  LOLBox
+//
+//  Created by qianfeng on 15/12/12.
+//  Copyright (c) 2015年 caopengfei. All rights reserved.
+//
+
+#ifndef LOLBox_PrefixHeader_pch
+#define LOLBox_PrefixHeader_pch
+#define KScreen_Size  [UIScreen mainScreen].bounds.size
+#define KImageCell_Height 160
+#define KClubCell_Height 160
+#import "MJRefresh.h"
+#import "JHRefresh.h"
+#import "MMProgressHUD.h"
+#import "UMSocial.h"
+
+
+#define TwoNewUrl @"http://qt.qq.com/static/pages/news/phone/%@"
+#define  NewUrl  @"http://qt.qq.com/static/pages/news/phone/c12_list_1.shtml"
+#define ScrollUrl  @"http://qt.qq.com/static/pages/news/phone/c13_list_1.shtml"
+#define SearchUrl @"http://qt.qq.com/php_cgi/lol_mobile/iso/php/search_articles.php?keyword=%@&num=10&page=0&plat=android&version=9686"//搜索
+#define CompetitoinUrl @"http://qt.qq.com/static/pages/news/phone/c73_list_%d.shtml"//赛事
+#define TwoCompetitoinUrl @"http://qt.qq.com/static/pages/news/phone/%@"//赛事
+
+#define MovieUrl @"http://qt.qq.com/static/pages/news/phone/c11_list_%d.shtml"//视频
+#define TwoMovieUrl @"http://qt.qq.com/static/pages/news/phone/%@"//视频
+
+#define FunUrl @"http://qt.qq.com/static/pages/news/phone/c18_list_%d.shtml"//娱乐
+#define TwoFunUrl @"http://qt.qq.com/static/pages/news/phone/%@"//娱乐
+#define OfficeUrl @"http://qt.qq.com/static/pages/news/phone/c3_list_%d.shtml"//官方
+#define TwoOfficeUrl @"http://qt.qq.com/static/pages/news/phone/%@"
+#define GongUrl @"http://qt.qq.com/static/pages/news/phone/c10_list_%d.shtml"//攻略
+#define TwoGongUrl @"http://qt.qq.com/static/pages/news/phone/%@"
+#define EssenceUrl @"http://qt.qq.com/static/pages/news/phone/c23_list_%d.shtml"//精华
+#define TwoEssenceUrl @"http://qt.qq.com/static/pages/news/phone/%@"
+#define PaperWallUrl @"http://qt.qq.com/php_cgi/lol_goods/varcache_wallpaper_list.php?type=hot&page=0&num=20&plat=android&version=9686"//照片
+#define TwoPaperWallUrl @"http://qt.qq.com/php_cgi/lol_goods/varcache_wallpaper_list.php?type=hot&page=%d&num=20&plat=android&version=9686"//照片
+#define HeroTimeUrl @"http://qt.qq.com/php_cgi/lol_mobile/hero_time/tpl/navigation.html?area=13"//时刻
+#define SearchDataUrl @"http://qt.qq.com/php_cgi/lol_mobile/club/varcache_team_entrancev2.php?plat=android&version=9686"//战队
+//#define InterstUrl @"http://xiaoqu.qq.com/mobile/barindex.html?sid=wWM22sjuDfdtI61tkPFT80OTVAhhV/g70f806e500201=="//兴趣部落
+#define LunTanUrl @"http://wsq.discuz.qq.com/?siteid=187674040&c=index&f=inner&a=index&sid=wWM22sjuDfdtI61tkPFT80OTVAhhV/g70f806e500201=="//论坛
+#define HeroSearchUrl @"http://lolbox.duowan.com/playerDetail.php?serverName=%@&playerName=%@"//查询英雄
+#define AllHero @"http://lol.data.shiwan.com/lolHeros/?filter=&type=all"//全部英雄
+#define FreeHero @"http://lol.data.shiwan.com/lolHeros/?filter=&type=free"//免费英雄
+#define StatusUrl @"http://lol.data.shiwan.com/lolHeroInfo/?id=%@"//英雄详情
+#define GoodsUrl @"http://lol.data.shiwan.com/lolItemFilter/lolvideo?index=99"//装备资料
+#define GoodStatus @"http://lolbox.duowan.com/phone/apiItemDetail.php?id=%@"
+#define ClubSearchUrl @"http://qt.qq.com/php_cgi/lol_mobile/club/varcache_gamelist.php?id=%@&plat=android&version=9687&page=0&num=10"
+#define ClubNumberUrl @"http://qt.qq.com/php_cgi/lol_mobile/club/varcache_team_simple.php?id=%@&membernum=10&plat=android&version=9687"
+#endif
